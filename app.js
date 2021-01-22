@@ -98,7 +98,7 @@ function removeTaskFromLocalStorage(taskName){
 }
 
 function clearTasks(e){
-    if(confirm('Do you really want to delete all the elements?')){
+    if(confirm('Do you really want to delete all the Tasks?')){
         while(taskL.firstChild){
            taskL.removeChild(taskL.firstChild);
         }
